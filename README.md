@@ -1,10 +1,10 @@
 # nonstandard
 
-Generic implementation of nonstandard analysis in Lean 4; in particular, with a polymorphic `🞵(...)` operator and a `transfer_principle` tactic to use theorems proved in the nonstandard universe in the standard universe, and vice versa. In contrast, mathlib4 only includes definitions specific to the hyperreals $\ast\mathbb R$ (nonstandard-ly written as `ℝ*` in mathlib4).
+Generic implementation of nonstandard analysis in Lean 4; in particular, with a polymorphic `*(...)` operator and a `transfer_principle` tactic to use theorems proved in the nonstandard universe in the standard universe, and vice versa. In contrast, mathlib4 only includes definitions specific to the hyperreals $\ast\mathbb{R}$ (nonstandard-ly written as `ℝ*` in mathlib4).
 
 The construction and transfer principle is by the usual mathlib4 ultrafilter. Importantly, no new axioms are assumed.
 
-Significant inspiration is taken from Jacques D. Fleuriot and Brian Huffman’s Isabelle/HOL implementation [1–3], and of course Abhimanyu Pallavi Sudhir’s existing implementation for `ℝ*` included in mathlib4.
+Significant inspiration is taken from Jacques D. Fleuriot and Brian Huffman’s Isabelle/HOL implementation [1–3], and of course Abhimanyu Pallavi Sudhir’s existing implementation for $\ast\mathbb{R}$ included in mathlib4.
 
 ## References
 1. Fleuriot, J. D. (2000, September). Nonstandard geometric proofs. In International Workshop on Automated Deduction in Geometry (pp. 246-267). Berlin, Heidelberg: Springer Berlin Heidelberg.
