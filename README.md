@@ -1,6 +1,6 @@
 # nonstandard
 
-Generic implementation of nonstandard analysis in Lean 4; in particular, with a polymorphic `*(...)` operator and a `transfer_principle` tactic to use theorems proved in the nonstandard universe in the standard universe, and vice versa. Structures like `*ℚ`, `*ℕ`, and even `*(*ℝ)` are all possible. In contrast, mathlib4 only includes definitions specific to the hyperreals $\ast\mathbb{R}$ (nonstandard-ly written as `ℝ*` in mathlib4).
+Generic implementation of nonstandard analysis in Lean 4; in particular, with a polymorphic `*(...)` operator and a `transfer_principle` tactic to use theorems proved in the nonstandard universe in the standard universe, and vice versa. Structures like `*ℝ`, `*ℚ`, `*ℕ`, and even `*(*ℝ)` are all possible. In contrast, mathlib4 only includes definitions specific to the hyperreals $\ast\mathbb{R}$ (nonstandard-ly written as `ℝ*` in mathlib4).
 
 The construction and transfer principle is by the usual mathlib4 ultrafilter. Importantly, no new axioms are assumed.
 
