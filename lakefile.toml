@@ -1,0 +1,10 @@
+name = "nonstandard"
+version = "0.1.0"
+defaultTargets = ["nonstandard"]
+
+[[lean_lib]]
+name = "Nonstandard"
+
+[[lean_exe]]
+name = "nonstandard"
+root = "Main"
